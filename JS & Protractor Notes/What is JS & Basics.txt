@@ -1,0 +1,16 @@
+JavaScript Day 1
+
+Dynamic websites, user interactions, when user interacts with the website how the browser's content should act / change, through the browser how to pass the data to the server / recieve from the browser / 
+
+Primitive 
+	String, Number, Boolean
+	template literals - `${name}`
+
+Composite
+	Object{collection of key & value pairs}, 
+	Array [different dataTypes], 
+	Function
+
+Special Data Types
+	Undefined (default), Null ()
+

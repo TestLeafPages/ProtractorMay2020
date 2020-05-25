@@ -1,0 +1,50 @@
+JS Day 1
+	VS Code
+	node / npm
+	
+	Programming Paradigm - Java OOPS - Python, C, C++
+
+	What / Why JavaScript? Brendon Eich - 1995 - LiveScript - JavaScript 1996
+
+	Multiple Paradigm	
+
+	prompt alert()
+	
+	node.js - JavaScript runtime built on Chrome's V8 engine.
+	console.log() 
+
+	npm - node package manager
+
+	npm init -y			// package.json
+
+	npm install -g protractor	// For global installation
+
+	npm install protractor		// For workspace installation
+
+	npm install mocha		// Runner framework
+
+	npm install chai		// Assertion library 
+
+	*webdriver-manager update	// To launch Selenium Standalone Server in the background
+	
+	*localhost:4444/wd/hub
+	
+	global, local
+
+	variables dataType containers
+		var, const, let	
+		var - function scope
+		let,const - block scope 
+
+	dataTypes - 
+	
+	webdriver-manager update --versions.chrome 81.0.4044.138 
+
+		
+
+	
+
+
+
+
+

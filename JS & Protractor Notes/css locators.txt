@@ -1,0 +1,11 @@
+css locators
+
+# for id
+. for class
+
+1) tagname#id-value
+2) tagname.class-name
+3) tagname[locatorName*='value'] for contains
+4) tagname[locatorName^='value'] for statswith
+5) tagname[locatorName$='value'] for endswith
+6) tagname[locatorName*='value'][locatorName$='value'] for multiple values
