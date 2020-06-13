@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592025835036' stop='1592025844450'>
+    <name>TC001_LoginLeafTaps</name>
+    <title>TC001_LoginLeafTaps</title>
+    <test-cases>
+        <test-case start='1592025835037' status='passed' stop='1592025840669'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='847c9263-2600-4e04-8ca9-f9736316a2bb-attachment.png' type='image/png' size='27003'/>
+                <attachment title='Screenshot' source='530f13e3-a52b-49c4-86bd-d9302fb3ee84-attachment.png' type='image/png' size='27166'/>
+                <attachment title='Screenshot' source='c6fa1dd3-e30c-457f-bd1f-8a438892ecd3-attachment.png' type='image/png' size='51569'/>
+            </attachments>
+        </test-case>
+        <test-case start='1592025840669' status='broken' stop='1592025844450'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>No element found using locator: By(css selector, *[id="username"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="username"])
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as sendKeys] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as sendKeys] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at Login.type (ProtractorBase.js:110:13)
+                    at Login.enterUsername (LoginPage.js:15:14)
+                    at Context.&lt;anonymous> (TC001.js:16:15)
+                    at runTest (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:163:22)
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:184:16
+                    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at controlFlowExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:183:14)
+                From: Task: TC001_LoginLeafTaps Enter Username
+                    at Context.ret (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:182:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

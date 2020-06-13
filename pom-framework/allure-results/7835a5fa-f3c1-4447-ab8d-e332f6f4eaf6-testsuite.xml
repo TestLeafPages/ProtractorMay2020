@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592026761705' stop='1592026781730'>
+    <name>TC001_LoginLeafTaps</name>
+    <title>TC001_LoginLeafTaps</title>
+    <test-cases>
+        <test-case start='1592026761707' status='broken' stop='1592026781728'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d6d8ae94-983f-4bba-b67e-c9f3a9600bf2-attachment.png' type='image/png' size='27003'/>
+                <attachment title='Screenshot' source='df29ac2d-f266-42a4-81ac-245b1831021c-attachment.png' type='image/png' size='27166'/>
+                <attachment title='Screenshot' source='9ec58d48-6889-43e2-a14a-d03abce8826c-attachment.png' type='image/png' size='51569'/>
+            </attachments>
+            <failure>
+                <message>invalid session id
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-GK6BRNV', ip: '192.168.225.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+                Driver info: driver.version: unknown</message>
+                <stack-trace>WebDriverError: invalid session id
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-GK6BRNV', ip: '192.168.225.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+                Driver info: driver.version: unknown
+                    at Object.checkLegacyResponse (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.close()
+                    at thenableWebDriverProxy.schedule (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at thenableWebDriverProxy.close (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:982:17)
+                    at run (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as close] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+                    at Context.&lt;anonymous> (TC001.js:23:24)
+                    at runTest (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:163:22)
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:184:16
+                    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at controlFlowExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:183:14)
+                    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: TC001_LoginLeafTaps "after each" hook: ret
+                    at Context.ret (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:182:10)
+                    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\testing\index.js:101:5
+                    at ManagedPromise.invokeCallback_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

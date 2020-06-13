@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592023667214' stop='1592023672846'>
+    <name>TC001_LoginLeafTaps</name>
+    <title>TC001_LoginLeafTaps</title>
+    <test-cases>
+        <test-case start='1592023667215' status='passed' stop='1592023672845'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9c463b9a-bde1-472f-a62f-61afd5824681-attachment.png' type='image/png' size='27003'/>
+                <attachment title='Screenshot' source='8ccfec3b-9d80-4b79-a671-42c7cf451c46-attachment.png' type='image/png' size='27166'/>
+                <attachment title='Screenshot' source='a43c3e4a-dca7-426c-992d-5032dc581d8d-attachment.png' type='image/png' size='51569'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592026239515' stop='1592026261059'>
+    <name>TC001_LoginLeafTaps</name>
+    <title>TC001_LoginLeafTaps</title>
+    <test-cases>
+        <test-case start='1592026239516' status='passed' stop='1592026250815'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9a3f962b-86e6-436e-9f13-c863dda5db98-attachment.png' type='image/png' size='27003'/>
+                <attachment title='Screenshot' source='2381373d-435a-4870-a087-a4bd3effb2dc-attachment.png' type='image/png' size='27166'/>
+                <attachment title='Screenshot' source='2d285221-1c3b-466a-8dad-6a29c4f75abc-attachment.png' type='image/png' size='51569'/>
+            </attachments>
+        </test-case>
+        <test-case start='1592026250815' status='passed' stop='1592026261058'>
+            <name>Enter Username</name>
+            <title>Enter Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7adb4576-d1b4-4111-a1af-6ec1379526a7-attachment.png' type='image/png' size='26159'/>
+                <attachment title='Screenshot' source='d48222ae-f816-4d94-af4f-8384db5ebc06-attachment.png' type='image/png' size='26391'/>
+                <attachment title='Screenshot' source='dc7cdda9-6409-4893-ada8-9db492cf94c6-attachment.png' type='image/png' size='51007'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
