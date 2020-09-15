@@ -9,3 +9,15 @@ css locators
 4) tagname[locatorName^='value'] for statswith
 5) tagname[locatorName$='value'] for endswith
 6) tagname[locatorName*='value'][locatorName$='value'] for multiple values
+
+Following (Child)
+7) tagname[locatorName='value']>tagaNme[locatorName='value']
+
+Grand Child
+8) tagName[locatorName='value'] tagName[locatorName='value']
+
+Following-Sibling (Immediate Sibling)
+9) tagName[locatorName='value']+tagName[locatorName='value']
+
+Following-Sibling (All Siblings)
+10) tagName[locatorName='value']~tagName
